@@ -1,0 +1,83 @@
+.parent {
+  height: 98vh;
+  width: 100%;
+}
+.top_bar {
+  height: 20%;
+  align-items: center;
+  text-align: centre;
+  display: flex;
+}
+.logo {
+  width: 200px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  align-content: center;
+}
+.icon {
+  width: 35px;
+  height: 55px;
+  border: 5px solid rgb(17, 187, 223);
+  transform: rotate(-15deg);
+  z-index: 0.5;
+  margin-top: 5px;
+  border-radius: 2px;
+}
+.logo_h1 {
+  background: #fff;
+  width: 160px;
+  z-index: 1;
+  margin-left: -20px;
+  height: 30px;
+  line-height: 30px;
+  color: rgb(45, 45, 46);
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.hero {
+  width: 100vw;
+  height: 80%;
+  background-size: cover;
+}
+
+.hero_overlay {
+  width: 100vw;
+  height: 100%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.74);
+}
+.hero_h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: -0.2rem;
+  width: 50vw;
+  margin: auto;
+  padding-top: 15vh;
+}
+.hero_h2 {
+  font-size: 18px;
+}
+.hero_h3 {
+  width: 80%;
+  margin: auto;
+  color: rgb(43, 43, 43);
+  font-weight: 500;
+  margin-bottom: 5vh;
+}
+.hero_button {
+  background-color: rgb(21, 147, 175);
+  padding: 15px 60px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 900;
+  border: none;
+  outline: none;
+}
+.hero_h4 {
+  color: gray;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+}
